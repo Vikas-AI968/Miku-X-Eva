@@ -16,7 +16,7 @@ const QUICK_PROMPTS_EVA = [
   { label: 'Think deeply',     text: 'What do you think about consciousness?' },
 ]
 
-const API_BASE = 'https://miku-x-eva-backend.onrender.com'
+const API_BASE = 'https://miku-x-eva-1af1.onrender.com'
 const USER_ID  = 'user-' + Math.random().toString(36).slice(2, 8)
 
 function SpeechWaveform({ active }) {

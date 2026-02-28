@@ -7,12 +7,12 @@ export default defineConfig({
     port: 5173,
     proxy: {
       '/chat': {
-        target: 'https://miku-x-eva-backend.onrender.com',
+        target: 'https://miku-x-eva-1af1.onrender.com',
         changeOrigin: true,
         secure: true,
       },
       '/health': {
-        target: 'https://miku-x-eva-backend.onrender.com',
+        target: 'https://miku-x-eva-1af1.onrender.com',
         changeOrigin: true,
         secure: true,
       },

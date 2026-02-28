@@ -13,7 +13,7 @@ client = Groq(api_key=os.getenv("GROQ_API_KEY"))
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "https://miku-x-eva-backend.onrender.com",
+        "https://miku-x-eva-1af1.onrender.com",
         "http://localhost:5173",
         "http://localhost:3000",
     ],
